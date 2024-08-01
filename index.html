@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!--BOOTSTRAP CSS LINKS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+ 
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+  </head>
+
+  <body>
+    <!--START Navigation Bar: Collapsible Responsive Navigation Bar-->
+    <header>
+      <nav class="topNav" id="navBar">
+        <a href="" class="logo"     
+          ><img alt="Home" src="img/logo-enews.jpg"
+        /></a>
+        
+        <a href="login.html">Login</a>
+        <a href="contact.html">Contact</a> 
+        <a href="about.html">About</a>
+        <a href="article.html">Category</a>
+        <a href="index.html" class="activepage">Home</a>
+
+
+        <div class="wrap">
+          <div class="search">
+             <input type="text" class="searchTerm" placeholder="Search here...">
+             <button type="submit" class="searchButton">
+               <i class="fa fa-search"></i>
+            </button>
+          </div>
+       </div>
+
+       <!-- Toggler/collapsibe Button -->-
+        <a
+          href="javascript:void(0)"
+          onclick="openMenu()"
+          class="hamburger"
+          aria-label="mobilemenu"
+          ><i id="menubtn" class="fas fa-bars" aria-hidden="true"></i
+        ></a>
+      </nav>
+      <!--END Navigation Bar: Collapsible Responsive Navigation Bar-->
+    </header>
+    <hr />
+    <br>
+    
+    <section class="main">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="img/Argentina-win-the-world-cup-2022.jpg" alt="shop" />
+        </div>
+        <div class="mySlides fade">
+          <img src="img/bts.jpg" alt="shop" />
+        </div>
+        <div class="mySlides fade">
+          <img src="img/turkey_quake_3-sixteen_nine.jpg" alt="shop" />
+        </div>
+        <div class="mySlides fade">
+          <img src="img/sidkiara-1200.jpg" alt="shop" />
+        </div>
+        <div class="mySlides fade">
+          <img src="img/1670210332-516.jpg" alt="shop" />
+        </div>
+      </div>
+      <br>
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <div class="magazine">
+        <div class="row">
+          <h2 class="magazine-title"><b>Trending News</b></h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-news" id="latest-news">
+    <br>
+    
+      <h3 class="heading"><b>Latest Around the World</b></h3>
+      <div class="box-container">
+          <div class="box">
+              <img src="img/ivan-kazlouskij-65d3QFMKx0A-unsplash.jpg" alt="">
+              <div class="content">
+                  <h3>Tesla</h3>
+                  <a href="#" class="btn">see datails</a>
+              </div>
+          </div>
+    
+          <div class="box">
+              <img src="img/gppt.jpg" alt="">
+              <div class="content">
+                  <h3>chatGpt</h3>
+                  <a href="#" class="btn">see datails</a>
+              </div>
+          </div>
+    
+          <div class="box">
+              <img src="img/ind.jpg" width=100px alt="">
+              <div class="content">
+                  <h3>G20</h3>
+                  <a href="#" class="btn">see datails</a>
+              </div>
+          </div>
+    
+          <div class="box">
+              <img src="img/pexels-subhro-vision-14546943.jpg" alt="">
+              <div class="content">
+                  <h3>Holi</h3>
+                  <a href="#" class="btn">see datails</a>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="container-left">
+        <h2><b>Top News</b></h2>
+        <div class="container-top-left">
+          <article>
+          <div class="main-img">
+            <img src="img/Vande-Bharat-feat.jpg" alt="workers" />
+             </div>
+            <div>
+              <h3>'Why couldn't we make our own high-speed trains?': Meet the men who brought Train 18 to life</h3>
+              <h4>The Indian Express :</h4>
+              <p>
+                The team of 5 engineers decided they would produce the first Vande Bharat train in 18 months- Project 18. The Indian Express talks to the 
+                team of original engineers who were on Project 18.  They are all part of Chennai Integral Coach Factory, setup with Swiss collaboration 
+                in 1955. By 2019 the first train was operational at speeds of 180 km per hour, semi-high speed and setting the transition to high speed 
+                trains developed entirely within India. Sudanshu Mani, General Manager of ICF, headed this effort and set the target of 18 months. 
+                </p>
+              <a href="article.html">Read More <span>>></span></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="container-bottom-left">
+          <article>
+            <div class="image">
+             
+            <img src="img/biden-putins.jpg" alt="Biden" />
+            </div>
+            <div>
+              <h3>
+                Biden: Putin's suspension of arms treaty with US a 'mistake'</h3>
+              <p>
+                President Joe Biden said Wednesday that Russian President Vladimir Putin made a "mistake" by suspending his country's participation in 
+                the the last remaining U.S.-Russia nuclear arms control treaty. In his first comments since Putin's announcement Tuesday, Biden, who is
+                “Europe was being tested. America was being tested. NATO was being tested. 
+                  </p>
+              <a href="index.html">Read More <span>>></span></a>
+            </div>
+          </article>
+
+          <article>
+            <div class="image">
+            <img src="img/esport.jpg" alt="meeting" />
+            </div>
+            <div>
+              <h3>
+                Gamers Rejoice: Esports now officially recognized as a sport in India 
+              </h3>
+              <p>
+                In a big move, The Government of India has officially recognised 'E-Sports' (Electronic Sports)
+                as a part of Multi-sports events. E-Sports will be taken care of by Department of Sports under 
+                the Ministry of Youth Affairs and Sports. Meanwhile, 'Online Gaming' will be under MEITY 
+                (Ministry of Electronics and Information Technology).      
+              </p>
+              <a href="index.html">Read More <span>>></span></a>
+            </div>
+          </article>
+
+          <article>
+            <div class="image">
+            <img src="img/Western to eastern.jpg" alt="meeting" />
+            </div>
+            <div>
+              <h3>
+                The Truth About Western Cultural Appropriation of Eastern Spirituality
+              </h3>
+              <p>
+                Western media often criticize Eastern spiritual practices. Instead, they must shine the light on the 
+                ignorant, dishonest and greedy self-proclaimed prophets of the modern wellness industry. They are guilty 
+                of cultural misappropriation as well as preying on vulnerable people looking for solace in their own societies.          
+              </p>
+              <a href="index.html">Read More <span>>></span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+     
+      <section class="container-right">
+        <h2><b>Most Viral</b></h2>
+        <div class="small-img">
+        <article>
+          <h4>just in time</h4>
+          <div>
+            <h2>
+              IPL 2023: Who Will Replace MS Dhoni As CSK Captain -
+            </h2>
+            <p>
+              Here Are 5 Candidates For Top Job
+              Indian PM addresses Economic Times Global Business Summit in Delhi..
+              MS Dhoni is likely to play his last IPL this year. The CSK captain will turn 42 this year and may 
+              opt to retire finally. He stretched his playing 
+            </p>
+            <a href="index.html">Read More <span>>></span></a>
+          </div>
+          <img src="img/csk.jpg" alt="PM" />
+        </article>
+
+        <article>
+          <h4>just in time</h4>
+          <div>
+            <h2>ChatGPT Writes 2000-Word Essay For Student In 20 Minutes, Passes University Test</h2>
+            <p>
+              ChatGPT, the new Al chatbot has been hitting headlines for a while. From social media users 
+              asking it to write an essay to students using it to complete their assignments, this software has
+              become the talk of the town. 
+             </p>
+            <a href="index.html">Read More <span>>></span></a>
+          </div>
+          <img src="img/chatgpt1675962017252.jpg" alt="outdoor" />
+        </article>
+
+        <article>
+          <h4>just in time</h4>
+          <div>
+            <h2>
+              Sidharth Malhotra-Kiara Advani wedding :-
+            </h2>
+            <p>
+              Sidharth Malhotra and Kiara Advani’s wedding took place on Tuesday at Jaisalmer’s Suryagarh hotel. Bollywood weddings in Rajasthan have become a regular feature, with Vicky Kaushal-Katrina Kaif and Nick Jonas-Priyanka Chopra earlier taking the same route.
+            </p>
+            <a href="index.html">Read More <span>>></span></a>
+          </div>
+          <img src="img/sidkiara-1200.jpg" alt="Celebrity" />
+        </article>
+
+        <article>
+          <h4>just in time</h4>
+          <div>
+            <h2>
+              PM addresses Economic Times Global Business Summit in Delhi..
+            </h2>
+            <p>
+              “We decided to reimagine, re-invent every single element of governance after 2014”
+              “India has shown the world what it means to be antifragile”
+            </p>
+            <a href="index.html">Read More <span>>></span></a>
+          </div>
+          <img src="img/modiji.jpg" alt="ship" />
+        </article>
+
+        <article>
+          <h4>just in time</h4>
+          <div>
+            <h2>Crew-6 mission: SpaceX launches NASA's latest space station crew to orbit | SpaceX Launch Video</h2>
+            <p>
+              Elon Musk's rocket company SpaceX launched a four-man crew to orbit. The crew will chase the International Space Station with a scheduled docking at 1:17 a.m. ET Friday. A Russian cosmonaut Andrey Fedyaev and UAE astronaut Sultan Al-Neyadi joined two NASA
+            </p>
+            <a href="index.html">Read More <span>>></span></a>
+          </div>
+          <img src="img/spX.jpg" alt="UX" />
+        </article>
+
+        </div>
+      </section>
+    </main>
+    <!--subscribe-->
+    <div class="feedback">
+      <form action="non">
+        <h1>You can Give Us feedback Here..</h1>
+        <p>Express Your View Here..</p>
+        <p>Emailed us here Anytime</p>
+        <p>Thank You for Your valuable time</p>
+        <div class="email-box">
+          <i class="fas fa-envelope"></i>
+          <input
+            class="tbox"
+            type="email"
+            name="subscribe"
+            value=""
+            placeholder="Enter your email"/>
+          <button class="btn" type="button" name="button">Send</button>
+        </div>
+      </form>
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h2><b>Quick Links</b></h2>
+            <ul>
+              <li><a href="index.html" class="links"> <i class="fas fa-angle-double-right"></i>  Home</a></li>
+              <li><a href="article.html" class="links"> <i class="fas fa-angle-double-right"></i>  Category</a></li>
+              <li><a href="about.html" class="links"> <i class="fas fa-angle-double-right"></i>  About</a></li>
+              <li><a href="contact.html" class="links"> <i class="fas fa-angle-double-right"></i>  Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+         
+            <h2><b>Address</b></h2>
+            <ul>
+           
+              <li><a href="#"><i class="fas fa-angle-double-right"></i>  E-News Portal</a></li>
+              <li><a href="#"><i class="fas fa-angle-double-right"></i>  Kranti chowk, Jalna road</a></li>
+              <li><a href="#"><i class="fas fa-angle-double-right"></i>  Chh.Sambhajinagar</a></li>
+              <li><a href="#"><i class="fas fa-angle-double-right"></i>  Maharashtra</a></li>
+              
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h2><b>Contact Us</b></h2>
+            <i class="fas fa-phone-alt get"></i>
+            <i class="far fa-envelope get"></i>
+            <!-- <i class="far fa-envelope get"></i> -->
+            <ul>
+           <li><a href="#"> Phone: +91 8021059286</a></li>
+           
+           <li><a href="#">e-Newsportal@gmail.com</a>
+           </ul>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+
+    <!-- Copyright box. -->
+    <div class="copyright">
+      Copyright © 2023 All rights reserved. Designed by E-News
+    </div>
+    <!--fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/cf8afffbe7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--javascript-->
+    <script src="JS/javascript.js"></script>
+
+    <!--BOOTSTRAP JS LINKS-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/javascript.js"></script>
+    <script src="JS/slideIndex.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/img/loginbg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* align items center vertically and horizontally  */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items:center !important;
+  height: 100vh;
+}
+
+.block form{
+  display: block;
+}
+
+.block .checkBox{
+  display: flex;
+  justify-content: center;
+  margin: 1px!important;
+}
+
+/* hide signup form */
+.login{
+  display: none;
+}
+ 
+/* Login form code */
+.login{
+  margin-top: 0;
+}
+
+.form{
+  width: 350px;
+  height: 450px;
+  background-color: rgba(41, 39, 39, 0.3);
+  box-shadow: 0 5px 30px black;
+}
+.btn button {
+  padding: 3px;
+  margin: 30px 0px 40px 30px;
+  border-style: none;
+  background-color: transparent;
+  color: beige;
+  font-size: 20px;
+  margin-right: 1px ;
+  margin-left: 60px;
+  font-weight: 750;
+}
+.formGroup{
+  display: flex;
+  justify-content: center;
+}
+.formGroup input{
+  border: none;
+  width: 80%;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: black;
+}
+input:focus {
+  outline: none !important;
+  border-bottom: 2px solid rgb(91, 243, 131);
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.checkBox{
+  display: flex;
+  justify-content: center;
+  margin: 16px!important;
+}
+#checkbox{
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
+}
+.text{
+  color:white;
+  font-size: 16px;
+}
+button.btn2{
+  margin-top: 10px;
+}
+.btn2{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+} 
+
+.btn2:hover {
+  box-shadow: 0 0 10px 3px orange;
+}
+
+.social-text {
+  margin-top: 20px;
+  padding:0px 0px;
+  font-size: .9rem;
+  margin-bottom: 5px;
+  text-align: center;
+  color: white;
+
+}

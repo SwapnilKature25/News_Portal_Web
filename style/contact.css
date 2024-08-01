@@ -1,0 +1,168 @@
+/**CONTACT FORM START**/
+/** hero section image, h1, p **/
+.hero {
+  height: 500px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(149, 209, 204, 0.2),
+      rgba(34, 87, 126, 0.8)
+    ),
+    url(/img/contact\ us.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-white);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.hero {
+  backdrop-filter: blur(4px);
+}
+.hero-title{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.form {
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 600px;
+  padding: 20px;
+  width: 320px;
+  margin: auto;
+  margin-bottom: 4vw;
+}
+
+.title {
+  color: #e91616;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #233d4d;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+.ic2 {
+  margin-top: 30px;
+}
+.ic3 {
+  margin-top: 30px;
+  height: 150px;
+}
+
+/* textarea font doesn't automatically inherit */
+textarea {
+  font-family: inherit;
+  padding: 25px 15px;
+  resize: none;
+}
+
+.input {
+  border-radius: 12px;
+  border: 1px;
+  border-style: solid;
+  border-color: #e91616;
+  box-sizing: border-box;
+  color: #233d4d;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+/* This class is for the area on the form that will hold the raised placeholder text in each field*/
+.cut {
+  background-color: white;
+  height: 15px;
+  left: 20px;
+  position: absolute;
+  top: -25px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  padding: 5px;
+  color: white;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+/* ...at the same time as the above transformation, move the placeholder text from the input field up into the same location as the the .cut div, which will give the appearance that the gap in the border is occupied by the placeholder text. We also shrink the font size slightly as we do that and change its color. */
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.9);
+  color: #e91616;
+}
+
+/* default placeholder text style when neither of the above cases applies */
+.placeholder {
+  color: #233d4d;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.submit {
+  background-color: #e91616;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #233d4d;
+  color: white;
+}
+/*MAP START*/
+#location {
+  width: 100%;
+  height: 70vh;
+  margin-bottom: 5vw;
+}
+#location iframe {
+  width: 100%;
+  height: 100%;
+}

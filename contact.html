@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <link rel="stylesheet" href="style/contact.css" />
+  </head>
+  
+  <body>
+    <!--Navigation-->
+    <header>
+      <nav class="topNav" id="navBar">
+        <a href="" class="logo"
+          ><img alt="Home" src="img/logo-enews.jpg"
+        /></a>
+        <a href="login.html">Login</a>
+        <a href="contact.html" class="activepage">Contact</a>
+        <a href="about.html">About</a>
+        <a href="article.html">Category</a>
+        <a href="index.html">Home</a>
+
+        <div class="wrap">
+          <div class="search">
+             <input type="text" class="searchTerm" placeholder="Search here...">
+             <button type="submit" class="searchButton">
+               <i class="fa fa-search"></i>
+            </button>
+          </div>
+       </div>
+
+        <a
+          href="javascript:void(0)"
+          onclick="openMenu()"
+          class="hamburger"
+          aria-label="mobilemenu"
+          ><i id="menubtn" class="fas fa-bars" aria-hidden="true"></i
+        ></a>
+      </nav>
+    </header>
+
+    <!--HERO SECTION -->
+    <section>
+      
+      <div class="hero">
+        <br>
+        <h1 class="hero-title">CONTACT US</h1>
+        <br>
+        <p class="hero-text">
+          The quickest way to get an answer to your questions<br />
+          about our website or any of our topics
+        </p>
+        <br>
+        <p> Phone no. :  +91 8021059286   </p>
+        <p> Email id  :   E-Newsportal@gmail.com</p>
+         <p> Address  :   Kranti chowk, Jalna road , Chhatrapati Sambhaji Nagar</p>
+      </div>
+    </section>
+
+    <!--CONTACT-->
+    <div>
+      <!-- Contact Form -->
+      <!-- There are some animation of the placeholder text in this form. 
+               It is controlled entirely in the CSS.-->
+      <div class="form">
+        <div class="title">Contact Form</div>
+        <div class="subtitle">
+          Feel free to reach out with feedback, questions or just to say hello.
+        </div>
+        <div class="input-container ic1">
+          <input id="fullname" class="input" type="text" placeholder=" " />
+          <label for="fullname" class="placeholder">Name</label>
+        </div>
+        <div class="input-container ic2">
+          <input id="email" class="input" type="text" placeholder=" " />
+          <label for="email" class="placeholder">Email Address</label>
+        </div>
+        <div class="input-container ic3">
+          <textarea
+            id="message"
+            class="input"
+            cols="40"
+            rows="5"
+            placeholder=" "
+          ></textarea>
+          <label for="message" class="placeholder">How we can help?</label>
+        </div>
+        <button class="submit">Submit</button>
+      </div>
+    </div>
+    <!--section that contain map for location from google-->
+    <section id="location">
+      <h1>Find us here...</h1>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1876.094272563217!2d75.3284462080697!3d19.874258896658798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb986e29bdf813%3A0xfe9f37ce9c858a80!2sKranti%20Chowk%2C%20Aurangabad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1678321843502!5m2!1sen!2sin" 
+      width="600" height="450" style="border:0;"
+      allowfullscreen="" loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+      
+    </section>
+    <br>
+    
+    <!--footer-->   
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h2><b>Quick Links</b></h2>
+            <ul>
+              <li><a href="index.html" class="links"> <i class="fas fa-angle-double-right"></i>  Home</a></li>
+              <li><a href="article.html" class="links"> <i class="fas fa-angle-double-right"></i>  Category</a></li>
+              <li><a href="about.html" class="links"> <i class="fas fa-angle-double-right"></i>  About</a></li>
+              <li><a href="contact.html" class="links"> <i class="fas fa-angle-double-right"></i>  Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2><b>Address</b></h2>
+            <ul>
+           
+              <li><a href="#"><i class="fas fa-angle-double-right"></i>  E-News Portal</a></li>
+              <li><a href="#"><i class="fas fa-angle-double-right"></i>  Kranti chowk, Jalna road</a></li>
+              <li><a href="#"><i class="fas fa-angle-double-right"></i>  Chh.Sambhajin  agar</a></li>
+              <li><a href="#"><i class="fas fa-angle-double-right"></i>  Maharashtra</a></li>
+              
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h2><b>Contact Us</b></h2>
+            <i class="fas fa-phone-alt get"></i>
+            <i class="far fa-envelope get"></i>
+            <ul>
+           <li><a href="#"> Phone: +91 8021059286</a></li>
+           <li><a href="#">e-Newsportal@gmail.com</a>
+           </ul>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+    
+    <!-- Copyright box. -->
+    <div class="copyright">
+      Copyright © 2023 All rights reserved. Designed by E-News
+    </div>
+    
+    <!--fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/cf8afffbe7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--javascript-->
+    <script src="JS/javascript.js"></script>
+  </body>
+</html>
