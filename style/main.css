@@ -97,7 +97,8 @@ header {
 }
 
 .topNav a:hover {
-  box-shadow: 0 0 5px rgb(255, 153, 0),0 0 25px rgb(255, 153, 0),0 0 100px rgb(255, 153, 0),0 0 200px cyan ;
+  box-shadow: 4px 4px 5px orangered ;
+  border-radius: 20px;
 }
 
 /* When not on the homepage, highlight which page we're on */
